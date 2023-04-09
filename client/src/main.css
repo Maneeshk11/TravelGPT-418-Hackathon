@@ -1,0 +1,162 @@
+* {
+    font-size: 10px;
+    font-family: 'Sofia Sans Condensed', sans-serif;
+}
+
+body {
+    margin: 0;
+    background-color: black;
+}
+/* li {
+    list-style-type: none;
+    
+    
+}
+a {
+    text-decoration: none;
+    font-size: 2rem;
+    color: black
+} */
+
+.header {
+    width: 95vw;
+    height: 10rem;
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.header h1 {
+    font-family: 'Sofia Sans Condensed', sans-serif;
+    font-weight: Bold 700;
+    font-size: 3rem;
+    color: white;
+}
+
+.header button {
+    border: 1px solid white;
+    padding: 0.5rem 1.4rem;
+    font-size: 2rem;
+    border-radius: 1.5rem;
+    cursor: pointer;
+    font-family: 'Sofia Sans Condensed', sans-serif;
+    font-weight: 500;
+}
+
+.mainHome {
+    width: 100vw;
+    text-align: center;
+}
+.searchBarProfs{
+    margin-bottom: 4rem;
+    margin-top: 5rem;
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    height: 5rem;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .searchBarProfs input {
+    background-color: white;
+    border: 2px solid black;
+    border-style: solid none solid solid;
+    border-radius: 2px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    font-size: 18px;
+    padding: 15px;
+    height: 20px;
+    width: 250px;
+    font-family: 'Sofia Sans Condensed', sans-serif;
+    margin: 0 2rem;
+  }
+  
+  input:focus {
+    outline: none;
+  }
+ .searchBarProfs svg {
+    color: rgb(235, 20, 20);
+    font-size: 6rem;
+ }
+
+.or {
+    color: white;
+    font-size: 3rem;
+    text-align: center;
+}
+
+.searchBarProfs1{
+    margin-bottom: 3rem;
+    margin-top: 4rem;
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    height: 5rem;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .searchBarProfs1 input {
+    background-color: white;
+    border: 2px solid black;
+    border-style: solid none solid solid;
+    border-radius: 2px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    font-size: 18px;
+    padding: 15px;
+    height: 20px;
+    width: 450px;
+    font-family: 'Sofia Sans Condensed', sans-serif;
+    border-radius: 2rem;
+  }
+
+  .go{
+    border: 1px solid rgb(0, 0, 0);
+    background-color: rgb(235, 20, 20);
+    padding: 2rem 2.3rem;
+    font-size: 2rem;
+    border-radius: 50%;
+    cursor: pointer;
+    font-family: 'Sofia Sans Condensed', sans-serif;
+    font-weight: 500;
+}
+.go:hover{
+    background-color: rgb(161, 129, 129);
+}
+.ansDiv {
+    margin-top: 4rem;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    height:40rem;
+    justify-content: center;
+    align-items: center;
+
+}
+.textDiv {
+    border-radius: 0 1.5rem 1.5rem 0;
+}
+.mapDiv {
+    border-radius: 1.5rem 0 0 1.5rem;
+}
+.ansDiv div {
+    width: 40%;
+    height: 40rem;
+    border: 2px solid white;
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+    
+}
+
+.ansDiv div p {
+    color: white;
+    font-size: 2rem;
+}
+
